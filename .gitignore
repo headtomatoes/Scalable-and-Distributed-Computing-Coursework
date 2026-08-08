@@ -1,0 +1,15 @@
+# labs/ is its own git repo tracking MIT upstream — deliberately NOT nested here.
+# Your lab work is versioned inside labs/ against the `pristine` tag / `upstream` remote.
+labs/
+
+# Lab byproducts, in case anything leaks out
+*.so
+*-handin.tar.gz
+mr-*
+mrtmp.*
+
+# Editor / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
